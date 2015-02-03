@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F11B1641A80EA4C00FFBCDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F11B1631A80EA4C00FFBCDC /* Foundation.framework */; };
+		2F11B1661A80EA4C00FFBCDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F11B1651A80EA4C00FFBCDC /* CoreGraphics.framework */; };
+		2F11B1681A80EA4C00FFBCDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F11B1671A80EA4C00FFBCDC /* UIKit.framework */; };
+		2F11B16E1A80EA4C00FFBCDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F11B16C1A80EA4C00FFBCDC /* InfoPlist.strings */; };
+		2F11B1701A80EA4C00FFBCDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F11B16F1A80EA4C00FFBCDC /* main.m */; };
+		2F11B1741A80EA4C00FFBCDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F11B1731A80EA4C00FFBCDC /* AppDelegate.m */; };
+		2F11B1771A80EA4C00FFBCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F11B1751A80EA4C00FFBCDC /* Main.storyboard */; };
+		2F11B17A1A80EA4C00FFBCDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F11B1791A80EA4C00FFBCDC /* ViewController.m */; };
+		2F11B17C1A80EA4C00FFBCDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F11B17B1A80EA4C00FFBCDC /* Images.xcassets */; };
+		2F11B1831A80EA4C00FFBCDC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F11B1821A80EA4C00FFBCDC /* XCTest.framework */; };
+		2F11B1841A80EA4C00FFBCDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F11B1631A80EA4C00FFBCDC /* Foundation.framework */; };
+		2F11B1851A80EA4C00FFBCDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F11B1671A80EA4C00FFBCDC /* UIKit.framework */; };
+		2F11B18D1A80EA4C00FFBCDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F11B18B1A80EA4C00FFBCDC /* InfoPlist.strings */; };
+		2F11B18F1A80EA4C00FFBCDC /* tangotyou3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F11B18E1A80EA4C00FFBCDC /* tangotyou3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F11B1861A80EA4C00FFBCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F11B1581A80EA4C00FFBCDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F11B15F1A80EA4C00FFBCDC;
+			remoteInfo = tangotyou3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F11B1601A80EA4C00FFBCDC /* tangotyou3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tangotyou3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F11B1631A80EA4C00FFBCDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F11B1651A80EA4C00FFBCDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F11B1671A80EA4C00FFBCDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F11B16B1A80EA4C00FFBCDC /* tangotyou3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tangotyou3-Info.plist"; sourceTree = "<group>"; };
+		2F11B16D1A80EA4C00FFBCDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F11B16F1A80EA4C00FFBCDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F11B1711A80EA4C00FFBCDC /* tangotyou3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tangotyou3-Prefix.pch"; sourceTree = "<group>"; };
+		2F11B1721A80EA4C00FFBCDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F11B1731A80EA4C00FFBCDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F11B1761A80EA4C00FFBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F11B1781A80EA4C00FFBCDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F11B1791A80EA4C00FFBCDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F11B17B1A80EA4C00FFBCDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F11B1811A80EA4C00FFBCDC /* tangotyou3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tangotyou3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F11B1821A80EA4C00FFBCDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F11B18A1A80EA4C00FFBCDC /* tangotyou3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tangotyou3Tests-Info.plist"; sourceTree = "<group>"; };
+		2F11B18C1A80EA4C00FFBCDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F11B18E1A80EA4C00FFBCDC /* tangotyou3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tangotyou3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F11B15D1A80EA4C00FFBCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F11B1661A80EA4C00FFBCDC /* CoreGraphics.framework in Frameworks */,
+				2F11B1681A80EA4C00FFBCDC /* UIKit.framework in Frameworks */,
+				2F11B1641A80EA4C00FFBCDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F11B17E1A80EA4C00FFBCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F11B1831A80EA4C00FFBCDC /* XCTest.framework in Frameworks */,
+				2F11B1851A80EA4C00FFBCDC /* UIKit.framework in Frameworks */,
+				2F11B1841A80EA4C00FFBCDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F11B1571A80EA4C00FFBCDC = {
+			isa = PBXGroup;
+			children = (
+				2F11B1691A80EA4C00FFBCDC /* tangotyou3 */,
+				2F11B1881A80EA4C00FFBCDC /* tangotyou3Tests */,
+				2F11B1621A80EA4C00FFBCDC /* Frameworks */,
+				2F11B1611A80EA4C00FFBCDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F11B1611A80EA4C00FFBCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F11B1601A80EA4C00FFBCDC /* tangotyou3.app */,
+				2F11B1811A80EA4C00FFBCDC /* tangotyou3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F11B1621A80EA4C00FFBCDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F11B1631A80EA4C00FFBCDC /* Foundation.framework */,
+				2F11B1651A80EA4C00FFBCDC /* CoreGraphics.framework */,
+				2F11B1671A80EA4C00FFBCDC /* UIKit.framework */,
+				2F11B1821A80EA4C00FFBCDC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F11B1691A80EA4C00FFBCDC /* tangotyou3 */ = {
+			isa = PBXGroup;
+			children = (
+				2F11B1721A80EA4C00FFBCDC /* AppDelegate.h */,
+				2F11B1731A80EA4C00FFBCDC /* AppDelegate.m */,
+				2F11B1751A80EA4C00FFBCDC /* Main.storyboard */,
+				2F11B1781A80EA4C00FFBCDC /* ViewController.h */,
+				2F11B1791A80EA4C00FFBCDC /* ViewController.m */,
+				2F11B17B1A80EA4C00FFBCDC /* Images.xcassets */,
+				2F11B16A1A80EA4C00FFBCDC /* Supporting Files */,
+			);
+			path = tangotyou3;
+			sourceTree = "<group>";
+		};
+		2F11B16A1A80EA4C00FFBCDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F11B16B1A80EA4C00FFBCDC /* tangotyou3-Info.plist */,
+				2F11B16C1A80EA4C00FFBCDC /* InfoPlist.strings */,
+				2F11B16F1A80EA4C00FFBCDC /* main.m */,
+				2F11B1711A80EA4C00FFBCDC /* tangotyou3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F11B1881A80EA4C00FFBCDC /* tangotyou3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F11B18E1A80EA4C00FFBCDC /* tangotyou3Tests.m */,
+				2F11B1891A80EA4C00FFBCDC /* Supporting Files */,
+			);
+			path = tangotyou3Tests;
+			sourceTree = "<group>";
+		};
+		2F11B1891A80EA4C00FFBCDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F11B18A1A80EA4C00FFBCDC /* tangotyou3Tests-Info.plist */,
+				2F11B18B1A80EA4C00FFBCDC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F11B15F1A80EA4C00FFBCDC /* tangotyou3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F11B1921A80EA4C00FFBCDC /* Build configuration list for PBXNativeTarget "tangotyou3" */;
+			buildPhases = (
+				2F11B15C1A80EA4C00FFBCDC /* Sources */,
+				2F11B15D1A80EA4C00FFBCDC /* Frameworks */,
+				2F11B15E1A80EA4C00FFBCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tangotyou3;
+			productName = tangotyou3;
+			productReference = 2F11B1601A80EA4C00FFBCDC /* tangotyou3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F11B1801A80EA4C00FFBCDC /* tangotyou3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F11B1951A80EA4C00FFBCDC /* Build configuration list for PBXNativeTarget "tangotyou3Tests" */;
+			buildPhases = (
+				2F11B17D1A80EA4C00FFBCDC /* Sources */,
+				2F11B17E1A80EA4C00FFBCDC /* Frameworks */,
+				2F11B17F1A80EA4C00FFBCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F11B1871A80EA4C00FFBCDC /* PBXTargetDependency */,
+			);
+			name = tangotyou3Tests;
+			productName = tangotyou3Tests;
+			productReference = 2F11B1811A80EA4C00FFBCDC /* tangotyou3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F11B1581A80EA4C00FFBCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					2F11B1801A80EA4C00FFBCDC = {
+						TestTargetID = 2F11B15F1A80EA4C00FFBCDC;
+					};
+				};
+			};
+			buildConfigurationList = 2F11B15B1A80EA4C00FFBCDC /* Build configuration list for PBXProject "tangotyou3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F11B1571A80EA4C00FFBCDC;
+			productRefGroup = 2F11B1611A80EA4C00FFBCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F11B15F1A80EA4C00FFBCDC /* tangotyou3 */,
+				2F11B1801A80EA4C00FFBCDC /* tangotyou3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F11B15E1A80EA4C00FFBCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F11B17C1A80EA4C00FFBCDC /* Images.xcassets in Resources */,
+				2F11B16E1A80EA4C00FFBCDC /* InfoPlist.strings in Resources */,
+				2F11B1771A80EA4C00FFBCDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F11B17F1A80EA4C00FFBCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F11B18D1A80EA4C00FFBCDC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F11B15C1A80EA4C00FFBCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F11B17A1A80EA4C00FFBCDC /* ViewController.m in Sources */,
+				2F11B1741A80EA4C00FFBCDC /* AppDelegate.m in Sources */,
+				2F11B1701A80EA4C00FFBCDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F11B17D1A80EA4C00FFBCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F11B18F1A80EA4C00FFBCDC /* tangotyou3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F11B1871A80EA4C00FFBCDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F11B15F1A80EA4C00FFBCDC /* tangotyou3 */;
+			targetProxy = 2F11B1861A80EA4C00FFBCDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F11B16C1A80EA4C00FFBCDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F11B16D1A80EA4C00FFBCDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F11B1751A80EA4C00FFBCDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F11B1761A80EA4C00FFBCDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F11B18B1A80EA4C00FFBCDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F11B18C1A80EA4C00FFBCDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F11B1901A80EA4C00FFBCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F11B1911A80EA4C00FFBCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F11B1931A80EA4C00FFBCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tangotyou3/tangotyou3-Prefix.pch";
+				INFOPLIST_FILE = "tangotyou3/tangotyou3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F11B1941A80EA4C00FFBCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tangotyou3/tangotyou3-Prefix.pch";
+				INFOPLIST_FILE = "tangotyou3/tangotyou3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F11B1961A80EA4C00FFBCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tangotyou3.app/tangotyou3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tangotyou3/tangotyou3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tangotyou3Tests/tangotyou3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F11B1971A80EA4C00FFBCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tangotyou3.app/tangotyou3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tangotyou3/tangotyou3-Prefix.pch";
+				INFOPLIST_FILE = "tangotyou3Tests/tangotyou3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F11B15B1A80EA4C00FFBCDC /* Build configuration list for PBXProject "tangotyou3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F11B1901A80EA4C00FFBCDC /* Debug */,
+				2F11B1911A80EA4C00FFBCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F11B1921A80EA4C00FFBCDC /* Build configuration list for PBXNativeTarget "tangotyou3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F11B1931A80EA4C00FFBCDC /* Debug */,
+				2F11B1941A80EA4C00FFBCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F11B1951A80EA4C00FFBCDC /* Build configuration list for PBXNativeTarget "tangotyou3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F11B1961A80EA4C00FFBCDC /* Debug */,
+				2F11B1971A80EA4C00FFBCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F11B1581A80EA4C00FFBCDC /* Project object */;
+}
